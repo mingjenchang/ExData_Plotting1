@@ -1,4 +1,5 @@
 ## read file
+## assuming dataset "household_power_consumption.txt" has been downloaded to working directory
 rawdata <- read.table("household_power_consumption.txt", header = TRUE, sep=";", na.string = "?")
 
 ## read 2-day data for plot
